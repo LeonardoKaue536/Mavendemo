@@ -1,16 +1,18 @@
 package app;
 
-import java.util.List;
+import java.util.*;
+
+import javax.sound.sampled.Port;
 
 import dao.DAO;
-import dao.UsuarioDAO;
+import dao.UserDAO;
 import model.Usuario;
 
-public class Aplicacao {
+public class aplic{
 	
 	public static void main(String[] args) throws Exception {
 		
-		UsuarioDAO usuarioDAO = new UsuarioDAO();
+		UserDAO usuarioDAO = new UserDAO();
 		
 		//inserir o usuário
 		System.out.println("\n\n==== Inserir usuário === ");

@@ -6,9 +6,9 @@ import java.util.List;
 
 import model.Usuario;
 
-public class UsuarioDAO extends DAO {
+public class UserDAO extends DAO {
 	
-	public UsuarioDAO() {
+	public UserDAO() {
 		super();
 		conectar();
 	}
